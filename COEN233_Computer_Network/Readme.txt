@@ -1,4 +1,7 @@
 Project for COEN233 - Individual projects
+
+Programming Language: C
+
 Program assignment 1:
 Client using customized protocol on the top of UDP protocol for sending information to the server.
 
