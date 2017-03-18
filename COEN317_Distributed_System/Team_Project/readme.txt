@@ -1,3 +1,4 @@
+In view of the existing software testing tools and frameworks in solving large distributed software testing exists insufficient, we implement a framework of distributed testing system to improve the efficiency of the application testing. Concurrency testing can be executed on multiple slave nodes. 
 
 We use five terminals simulated as five computers: one is considered as client machine, two are masters and two are testing machines. There will be one master machine as the standby master, which will run as the master when detects the master is down.
 The client machine run a script program to send ten files which are ready to be tested. After receiving the ten testing files, the master will dispatch the testing jobs to the two slaves. The slaves run the testing job independently and send the results to the master. After receiving the testing results, the master will push the result file to the specific client.
